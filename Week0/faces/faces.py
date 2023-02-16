@@ -2,7 +2,7 @@ def main():
     text = face(input())
     print(text)
 
-def face(to):
+def face(to:str):
     to = to.replace(':)','🙂').replace(':(','🙁')
     return to
 
